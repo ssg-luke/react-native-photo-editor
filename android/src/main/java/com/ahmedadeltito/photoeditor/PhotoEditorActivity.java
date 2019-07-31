@@ -114,7 +114,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
 
 
         Typeface newFont = getFontFromRes(R.raw.eventtusicons);
-        emojiFont = getFontFromRes(R.raw.emojioneandroid);
+        // emojiFont = getFontFromRes(R.raw.emojioneandroid);
 
         BrushDrawingView brushDrawingView = (BrushDrawingView) findViewById(R.id.drawing_view);
         drawingViewColorPickerRecyclerView = (RecyclerView) findViewById(R.id.drawing_view_color_picker_recycler_view);
